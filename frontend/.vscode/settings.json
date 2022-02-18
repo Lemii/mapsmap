@@ -1,0 +1,7 @@
+{
+	"workbench.colorCustomizations": {
+		"titleBar.activeBackground": "#D8A127",
+		"titleBar.inactiveBackground": "#D8A127"
+	},
+	"cSpell.words": ["craco", "dagre", "graphlib", "mapsmap", "MAPX", "Parens", "signup", "webpackbar"]
+}

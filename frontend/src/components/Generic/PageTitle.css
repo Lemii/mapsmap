@@ -1,0 +1,9 @@
+.page-title {
+	text-align: center !important;
+	color: #fff !important;
+	letter-spacing: 0.1em !important;
+	font-weight: bolder !important;
+	margin-bottom: 0.5em !important;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2) !important;
+}

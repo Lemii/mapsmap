@@ -1,0 +1,12 @@
+.rc-md-editor .editor-container .sec-md .input {
+	background-color: #ffffff00 !important;
+}
+
+.custom-bg {
+	background-color: #ffffff80 !important;
+}
+
+.button-type-link,
+.button-type-image {
+	display: none !important;
+}

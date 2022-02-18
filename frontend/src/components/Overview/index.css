@@ -1,0 +1,14 @@
+.overview {
+	height: 600px;
+	/* background-color: #ffffff80;
+	border-radius: 10px; */
+}
+.layoutflow {
+	flex-grow: 1;
+	position: relative;
+	height: 600px;
+}
+
+.flowDivider {
+	margin: 5px 5px;
+}
