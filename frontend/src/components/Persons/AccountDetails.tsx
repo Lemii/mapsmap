@@ -48,6 +48,9 @@ const AccountDetails = ({ account, isLoading }: Props) => {
 	const acc = account as AccountProps;
 	const { mapsmap } = acc;
 
+	const address =
+		userCredentials?.mapAddress || cryptography.getLisk32AddressFromAddress(acc.address, config.addressPrefix);
+
 	const renderContacts = () => {
 		const contactsObject = bufferToJson(mapsmap.contacts);
 
@@ -82,7 +85,7 @@ const AccountDetails = ({ account, isLoading }: Props) => {
 				<Title level={4}>Account Details</Title>
 
 				<Entry label="Balance" value={`${getBalance(acc.token.balance)} ${config.ticker}`} />
-				<Entry label="Address" value={userCredentials!.mapAddress} />
+				<Entry label="Address" value={address} />
 
 				<Divider />
 
